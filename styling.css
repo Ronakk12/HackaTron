@@ -1,0 +1,511 @@
+.prize-image{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
+}
+span{
+  color: #f70606 !important;
+}
+footer ul{
+  margin-left: -2em !important;
+}
+
+@media (max-width: 768px){
+  footer ul{
+    margin-left: -1em !important;
+  } 
+}
+#brochure > div > p > a:hover{
+  text-decoration: none !important;
+
+}
+body{
+  scroll-behavior: smooth;
+}
+@media (max-width:768px){
+footer h4{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+}
+#countdown > div > div > div.col-md-12 > h1{
+  font-family: Montserrat !important;
+  letter-spacing: 15px;
+}
+.about_us_class{
+  font-weight: 400 ;
+}
+#landing-page h1{
+  font-size: 8vh;
+}
+
+.close{
+  line-height: 0;
+}
+button{
+  border-radius: 0.3em !important;
+}
+.round-button{
+  /* height: 40px; */
+  /* width: 40px; */
+}
+.modal .close i{
+  /* font-family: 'FontAwesome'; */
+}
+html{
+  overflow-x: hidden;
+}
+h1{
+  /* font-family: "LEMON MILK" !important; */
+}
+@font-face {
+    font-family: 'LEMON MILK';
+    src: url('./fonts/LEMONMILK-Medium.woff2') format('woff2'),
+        url('./fonts/LEMONMILK-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body{
+  /* font-family: 'LEMON MILK'; */
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+
+}
+
+
+
+/*@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('./fonts/lemonmilk-regular-webfont.woff2') format('woff2'),
+         url('./fonts/lemonmilk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}*/
+/* @font-face {
+  font-family: 'Lemon/Milk';
+  src: url('http://www.fontsaddict.com/fontface/lemonmilk.ttf');
+} */
+
+h1{
+  line-height: 1;
+  /* font-family: "Lemon/Milk"; */
+}
+div.modal-header{
+  background : #27a5ef;
+  display: flex;
+  vertical-align: center;
+  /* justify-content: center; */
+  align-items: center !important;
+  
+}
+div.modal-header button{
+  background: white;
+  /* width: 2vh;
+  height: 2vh; */
+  border-radius: 50%;
+  margin: 0.2vh !important;
+}
+.modal-footer button{
+  background :#27a5ef;
+}
+#brochure > button{
+  /* background: transparent !important; */
+  /* border: 1px solid white !important;   */
+  margin-top: 2vh;
+  color: black !important;
+}
+#exampleModalCenter > div > div > div.modal-body > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.modal.fade.bd-example-modal-lg{
+
+    /* position: fixed;
+    top: 50%;
+    transform: translateY(-50%); */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+
+}
+body > div.modal.fade.bd-example-modal-lg div{
+  text-align: center; 
+  justify-content: center;
+}
+
+body > div.modal.fade.bd-example-modal-lg.show > div > div.modal-content > div img{
+  height: auto;
+  width: 100%;
+}
+
+div.modal-content{
+  display: flex;
+  align-content: center;
+}
+/*
+.horizon_title,.tag_line{
+  font-family: 'Arvo', serif;
+}
+*/
+#about_us_section > div > div > div:nth-child(1) > div{
+  /* margin-bottom: 5vh; */
+}
+#events_section{
+  /* margin-top:5vh;
+   */
+}
+/*#landing_page{
+  min-height: 100vh !important;
+  padding: auto !important;
+*/}
+button {
+  outline: none !important; 
+}
+a{
+	color: white !important;
+}
+html{
+	overflow-y: auto;
+  overflow-x: hidden;
+  width:100%; 
+}
+.sketch{
+  height: 100vh !important;
+}
+/* 
+body{
+	background-image: linear-gradient(to right, #1B181F, #363138);
+	color: white !important;
+	text-align: center;
+  width:100%;
+  font-family: 'Roboto', sans-serif;
+} */
+
+#wrapper{
+	width:100%;
+}
+
+ @media (max-width: 380px){
+  #countdown{
+    min-height: 70vh !important;
+  }
+ } 
+  
+  
+  
+  #countdown{
+    min-height: 65vh;
+  }
+/* } */
+/* @media only screen and (min-width: 1){
+  #countdown h1{
+    margin-top: 12vh;
+    letter-spacing: 3vh;
+    /* margin-bottom: %; */
+
+/* @media only screen and (min-width: 892px){
+  #countdown h1{
+    margin-top: 12vh;
+    letter-spacing: 3vh;
+    /* margin-bottom: 0; */
+  /* } */
+/* } */
+
+/* @media only screen and (min-width:1200px){
+  #countdown h1{
+    margin-top: 15vh;
+  }
+}
+
+@media only screen and (min-width:992px){
+  #countdown h1{
+    margin-top: 15vh;
+  }
+}
+@media only screen and (min-width:768px){
+  #countdown h1{
+    margin-top: 15vh;
+  }
+} */
+@media ( max-width: 768px){
+  #content > footer > div > div:nth-child(1) > div:nth-child(6) > h4{
+    margin-top: 10vh !important;
+  }
+  #about_us_section video{
+    margin-top: 25px;
+  }
+}
+#countdown h1{
+  margin-top: 20vh;
+
+}
+#content{
+	width:100%;
+	display: block;
+  position: absolute;
+	top:0;
+	left:0;
+	z-index:100;
+}
+
+/* #gui{
+	/*width:100%;*/
+  /*height: 100vh;*/
+  /* width: 100vw;
+	position: absolute;
+	top:0;
+	left:0; */
+ 
+
+
+/*.logo_container{
+  height: 38vh;
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+*/
+/*.horizon_logo{
+  height: 100%;
+  width: auto;
+  image-orientation: from-image;
+*/
+  /*margin-top: 50px;*/
+}
+
+
+.dropdown-item{
+  
+  text-align: center;
+}
+.nav-link{
+  margin:0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+@media only screen and (min-width:1200px){
+  .nav-logo img{
+  height: 45px;
+  margin:0;
+  padding: 0;
+  /*object-fit: all;*/
+  }
+  .bg-dark{
+    background: rgba(0,0,0,0.6) !important;
+    color: white !important;
+  }
+  .horizon_title{
+    color:#e5e6ea;
+    text-align: center;
+    font-size: 13vh;
+    /*margin-top: 3.7rem;*/
+  }
+
+  .dropdown-item:hover{
+    color:black !important;
+  }
+  .tag-line{
+    font-size: 3vw;
+    text-align: center;
+    color:#e5e6ea;
+
+  }      
+
+
+.nav{
+  margin:0px !important;
+  padding:0px !important;
+/*  height: 40px;*/
+}
+
+
+.nav-item {
+  color: #fff;
+  display: inline-block;
+  padding: 10px 15px;
+  
+  position: relative;
+  
+}
+.nav-item:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  /* background: #fff; */
+  background: #27a5ef !important;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-item:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+}
+
+
+.about_us_class{
+  display: flex;
+justify-content: center;  
+align-items: center;  
+flex-wrap: wrap;
+/* margin-top: 5vh; */
+}
+#landing-page .btn-primary{
+  font-size: 23px;
+}
+@media only screen and (max-width: 500px){
+#landing-page .btn-primary{
+  font-size: 15px;
+}
+}
+#about_us_section{
+  margin-top: 5vh;
+  /* margin-bottom: 5vh; */
+  /* min-height: 50vh !important; */
+  
+}
+@media screen and (max-width:1199px){
+ 
+ .navbar-nav .nav-link {
+    padding: 5px; 
+ }
+
+ .nav-logo img{
+  height: 40px;
+  object-fit: all;
+  }
+/* .horizon_title{
+    color:#e5e6ea;
+    text-align: center;
+    font-size: 12vw;
+    margin-top: 3.7rem;
+  }
+*/
+/*  .tag-line{
+    font-size: 5vw;
+    text-align: center;
+    color:#e5e6ea;
+*/     
+
+  .bg-dark{
+    background: black !important;
+    color: white !important;
+  }
+
+}
+.dropdown-toggle::after{
+  content: none !important;
+  
+}
+
+#countdown{
+  overflow-x: hidden !important;
+  max-width: 100vw !important;
+}
+/* #countdown div{
+  /* padding: 0 !important; */
+
+#content > footer > div{
+  padding-top: 5vh !important;
+}
+footer{
+  background: black !important;
+  margin-top: 15vh !important;
+}
+footer button{
+  background: black !important;
+}
+footer i{
+  /* color: black; */
+}
+footer h6{
+  font-size: 14px;
+  /* padding: 0; */
+  /* color : black; */
+}
+footer h4{
+  /* color: black ; */
+}
+p{
+	text-align: center !important;
+}
+#themes p{
+  text-align: left !important;
+}
+
+@keyframes jump {
+  0% { top: 0; } 50% { top: 10px; } 100% { top: 0; }
+}
+
+/*#arrow-down {
+  color:#e5e6ea;
+  position: relative;
+  margin: 60px auto;
+  margin-bottom: 100px !important;
+  text-align: center;
+  animation: jump 1.5s infinite;
+    i {
+      content: '\f0a8';
+      font-family: 'FontAwesome';
+      font-size: 80px;
+      transition: .3s ease-in-out;    
+  }
+    i:hover {
+      opacity: 0.7;
+      transition: .3s ease-in-out;
+  }
+*/
+#preloader-container{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top:0;
+  left:0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 10000;
+  /* position: absolute; */
+
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+#preloader-container video{
+  max-height: 25% !important;
+  margin: auto;
+  z-index: 9999999;
+}
+
+  
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  /* padding-bottom: 50px; */
+}
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+
+
+}
+
+
+
+
+
+
+/* speaker-class */

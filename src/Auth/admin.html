@@ -1,0 +1,159 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HackaTron'21</title>    
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <link rel="stylesheet" href="home.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+    <script src = "admin.js"></script>
+    <style>
+        body{
+            overflow-y: visible;
+        }
+    </style>
+  
+</head>
+
+<body id = "body" >
+    <div id = "mainLoader" style = "display: none;height:100vh;display: none;align-items: center;justify-content: center;">
+    <div class="loader3" ></div>
+</div>
+   <div id = "complete">
+  
+    
+
+    <div id="user_div" class="loggedin-div" >
+        <ul>
+            
+            
+            <!-- <li id = "godMode" style = "display: block;"><a href="#Admin" id = "A" onclick="switchHandler('Admin');">Admin</a></li> -->
+            <li><a onclick="logout()">Logout</a></li>
+          </ul>
+          
+        
+
+          
+
+          
+        
+
+
+
+          
+        <div id = "Admin" style="margin-left:25%;padding:1px 16px;height:1000px; display: block;">
+            <h2 style = "text-align: center; color:#47349b;font-weight:900; font-size: 50px;"><strong>ADMIN MODE</strong></h2>
+
+            <div class="tab1">
+                <button class="tab_links" onclick="openCity(event, 'newLondon');statsHandler();">Stats</button>
+                <button class="tab_links" onclick="openCity(event, 'newParis');userHandler();">Users</button>
+                <button class="tab_links" onclick="openCity(event, 'newTokyo');settings()">Settings</button>
+            </div>
+            
+            <div id="newLondon" class="tab_content">
+                <div id = "loaderAdminStatus" class="loader2" style = "display: none;margin-left: 50%;margin-top: 4%;"></div>
+                <div id = "adminStats" style = "display: none;">
+                    <h3>Stats</h3>
+                    
+                    <p id = "totalUsers"></p>
+                </div>
+            </div>
+            
+            <div id="newParis" class="tab_content">
+                <div id = "loaderAdminSunmissions" class="loader2" style = "display: none;margin-left: 50%;margin-top: 4%;"></div>
+                <div id = "adminSubmissions" style = "display: none;align-items: center;justify-content: center;">
+                    <div class="row" id="teamNames">
+                       
+ 
+                        
+                        
+                       
+                      </div>
+                      
+                    <!-- <div id="teamNames"style = "text-align: center;padding-bottom: 3%;"></div> -->
+
+                </div>
+
+                </div>
+
+                <div id="newTokyo" class="tab_content">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+                
+        </div>
+            
+            
+
+
+  
+          </div>
+        
+    </div> 
+          
+        
+        
+</div>
+        
+        
+      
+    
+<!--  
+<script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+    </script> -->
+    <script>
+        function openCity(evt, cityName) {
+          var i, tab_content, tab_links;
+          tab_content = document.getElementsByClassName("tab_content");
+          for (i = 0; i < tab_content.length; i++) {
+            tab_content[i].style.display = "none";
+          }
+          tab_links = document.getElementsByClassName("tab_links");
+          for (i = 0; i < tab_links.length; i++) {
+            tab_links[i].className = tab_links[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+    </script>
+
+    
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+    </script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,391 @@
+h5{
+  font-family: "Montserrat";  
+}
+body{
+  font-family: 'Montserrat' !important;
+}
+#prizes{
+  margin-top: 12vh;
+}
+
+#prizes center{
+  margin-bottom: 5vh !important;
+}
+#devfolio-apply-now {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #3770FF;
+  border-radius: 3px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 20px;
+  text-align: center;
+  /* text-transform: lowercase; */
+
+}
+#devfolia-apply-now:hover{
+  text-decoration: none !important;
+}
+
+
+#devfolio-apply-now:not([disabled]) {
+  cursor: pointer;
+}
+
+#devfolio-apply-now:hover {
+  /* background-color: #2954BF !important; */
+  text-decoration: none !important;
+}
+.leftt{
+  padding-left: 10% !important;
+}
+html {
+  height: 100%;
+}
+
+#about_us_section video{
+  max-width: 65%;
+
+}
+.example h1,
+.example p,
+.example .button {
+  transition: all .2s ease-in-out;
+}
+
+.example {
+  font-family: 'Roboto', sans-serif;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 70vh;
+  margin: auto;
+/*  padding-top: 7vh;   */
+  padding-bottom: 10vh;
+}
+@media only screen and (min-width: 325px) and (max-width: 670px) {
+  
+.example .flipdown {
+
+    padding-left: 15%;
+    padding-right: 15%;
+    max-width:100vh;
+    
+}
+}
+.example .flipdown {
+  margin: auto;
+}
+
+.example h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 3em;
+  margin-top: ;
+  margin-bottom: 0vh;
+    color: white;
+}
+
+.example p {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.example .buttons {
+  width: 100%;
+  height: 50px;
+  margin: 50px auto 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.example .buttons p {
+  height: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  padding: 0px 25px 0px 0px;
+  color: #333;
+  margin: 0px;
+}
+
+.example .button {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  line-height: 46px;
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+  border: solid 2px #333;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+}
+
+.example .button:hover {
+  background-color: #333;
+  color: black;
+}
+
+.example .button i {
+  margin-right: 5px;
+}
+body > div > h1{
+    color: white;
+}
+@media(max-width: 670px) {
+  .example {
+    width: 100%;
+    height: 100%;
+  }
+
+  .example h1 {
+    font-size: 2.5em;
+    margin-top: 15vh!important;  
+  }
+
+  .example p {
+    margin-bottom: ;
+  }
+
+  .example .buttons {
+    width: 100%;
+    margin-top: ;
+    text-align: center;
+    display: block;
+  }
+
+  .example .buttons p,
+  .example .buttons a {
+    float: none;
+    margin: auto;
+  }
+
+  .example .buttons p {
+    padding-right: ;
+  }
+
+  .example .buttons a {
+    display: inline-block;
+  }
+    #countdown{
+        background-position: center;
+    }    
+}
+@media only screen and (max-width: px){
+    .rotor-group{
+        height: 23vh !important;
+        width: 21vh !important;
+        padding-left: none !important;
+        padding-right: none !important;
+    }
+}
+
+
+
+
+@import "compass/css3";
+
+$body-bg: #c1bdba;
+$form-bg: #13232f;
+$white: #ffffff;
+
+$main: #1ab188;
+$main-light: lighten($main,5%);
+$main-dark: darken($main,5%);
+
+$gray-light: #a0b3b0;
+$gray: #ddd;
+
+$thin: 300;
+$normal: 400;
+$bold: 600;
+$br: 4px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll; 
+}
+
+body {
+  background:$body-bg;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration:none;
+  color:$main;
+  transition:.5s ease;
+  &:hover {
+    color:$main-dark;
+  }
+}
+
+.form {
+  background:rgba($form-bg,.9);
+  padding: 40px;
+  max-width:600px;
+  margin:40px auto;
+  border-radius:$br;
+  box-shadow:0 4px 10px 4px rgba($form-bg,.3);
+}
+
+.tab-group {
+  list-style:none;
+  padding:0;
+  margin:0 0 40px 0;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  li a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:rgba($gray-light,.25);
+    color:$gray-light;
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+    &:hover {
+      background:$main-dark;
+      color:$white;
+    }
+  }
+  .active a {
+    background:$main;
+    color:$white;
+  }
+}
+
+.tab-content > div:last-child {
+  display:none;
+}
+
+
+h1 {
+  text-align:center;
+  color:$white;
+  font-weight:$thin;
+  margin:0 0 40px;
+}
+
+label {
+  position:absolute;
+  transform:translateY(6px);
+  left:13px;
+  color:rgba($white,.5);
+  transition:all 0.25s ease;
+  -webkit-backface-visibility: hidden;
+  pointer-events: none;
+  font-size:22px;
+  .req {
+  	margin:2px;
+  	color:$main;
+  }
+}
+
+label.active {
+  transform:translateY(50px);
+  left:2px;
+  font-size:14px;
+  .req {
+    opacity:0;
+  }
+}
+
+label.highlight {
+	color:$white;
+}
+
+input, textarea {
+  font-size:22px;
+  display:block;
+  width:100%;
+  height:100%;
+  padding:5px 10px;
+  background:none;
+  background-image:none;
+  border:1px solid $gray-light;
+  color:$white;
+  border-radius:0;
+  transition:border-color .25s ease, box-shadow .25s ease;
+  &:focus {
+		outline:0;
+		border-color:$main;
+  }
+}
+
+textarea {
+  border:2px solid $gray-light;
+  resize: vertical;
+}
+
+.field-wrap {
+  position:relative;
+  margin-bottom:40px;
+}
+
+.top-row {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  > div {
+    float:left;
+    width:48%;
+    margin-right:4%;
+    &:last-child { 
+      margin:0;
+    }
+  }
+}
+
+.button {
+  border:0;
+  outline:none;
+  border-radius:0;
+  padding:15px 0;
+  font-size:2rem;
+  font-weight:$bold;
+  text-transform:uppercase;
+  letter-spacing:.1em;
+  background:$main;
+  color:$white;
+  transition:all.5s ease;
+  -webkit-appearance: none;
+  &:hover, &:focus {
+    background:$main-dark;
+  }
+}
+
+.button-block {
+  display:block;
+  width:100%;
+}
+
+.forgot {
+  margin-top:-20px;
+  text-align:right;
+}

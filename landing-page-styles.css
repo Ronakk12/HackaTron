@@ -1,0 +1,139 @@
+#landing-page {
+  height: 100vh;
+  width: 100%;
+}
+
+/* .navbar.navbar-dark.navbar-expand-lg.bg-dark {
+  background: rgba(0,0,0,0.6) !important;
+} */
+.horizon-logo{
+  /* margin-top: 66px; */
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+  font-weight: 700;
+}
+
+nav ul .nav-item .nav-link{
+  color: white;
+}
+.dropdown-menu{
+  padding: 0;
+   
+}
+a.dropdown-item{
+  text-align: center;
+  /* background: rgba(0,0,0,0.6) !important; */
+  background: transparent;
+  color: white;
+}
+@media (min-width: 992px){
+  nav ul{
+    /* margin-right: auto; */
+    margin-left: auto;
+  }
+  .nav-item {
+    color: #fff;
+    display: inline-block;
+    padding: 10px 15px;
+    
+    position: relative;
+    
+  }
+  .nav-item:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #01eb00;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  
+
+}
+
+@media(min-width:576px){
+  .nav-item:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+}
+
+nav ul{
+  text-align: center;
+}
+
+
+body {
+  color: white !important;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+}
+
+#register-button {
+  color: black;
+}
+
+span {
+  color: #01eb00;
+}
+
+
+
+horizon-text {
+  width: 100%;
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .horizon-title {
+    /*font-size: 12vh !important;*/
+    font-size: 10vh !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .horizon-title {
+    /*font-size: 8.8vh;*/
+    font-size: 7vh;
+  }
+}
+
+.horizon-title {
+  /*font-size: 5.7vh;*/
+  /* font-size: 4vh; */
+}
+
+.horizon-date {
+  font-size: 3vh !important;
+}
+
+.bg-dark{
+  background: black !important;
+}
+@media (min-width: 768px) {
+  .horizon-date {
+    font-size: 5vh;
+
+  }
+  .bg-dark{
+    background: rgba(0,0,0,0.6);
+  }
+}
+
+#logo {
+  height: 33vh;
+}
+
+@media (min-width: 576px) {
+  #logo {
+    width: 33vh;
+    height: 33vh;
+  }
+}
+

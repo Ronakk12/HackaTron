@@ -1,0 +1,85 @@
+body{
+    background-image: url('bg.jpg');
+    color: white !important;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat;
+}
+
+@media(max-width:768px){
+    body{
+        background-image: url("bgmobile.jpg");
+    }
+}
+
+#countdown{
+    background-image: url("c1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (max-width:550px){
+    .example{
+        width: 100%;
+        height: 100%;
+    }
+}
+/*#about_us_section {
+    background-image: url("l1.jpg");
+}
+#themes{
+    background-image: url("l1.jpg");
+}
+#faq{
+    background-image: url("l1.jpg");
+    padding-bottom: 15vh !important;
+}*/
+
+h1{
+    margin-top: 2vh;
+    font-size: 3rem;
+}
+.partner a img{
+    max-width: 20vw;
+}
+.partners{
+    /* margin-bottom: 5vh; */
+    padding-top: 0vh !important;
+}
+.partnerss{
+    margin-bottom: 15vh;
+    
+}
+
+
+.partners > div > div > div{
+  margin-top: 5vh;
+}
+.partner_element{
+    height: auto;
+    margin:auto;
+    width: 85%;  
+    }
+
+img.partner_elements{
+   
+    padding: auto;
+      max-height: 120px;
+      width: 160px;
+    }
+.partner_egg{
+    height: 100%;
+    margin:auto;
+    height: 120px;
+    width: 60%;
+}
+.partner_cloud{
+     height: 120px;
+    width: 60%;
+}
+
+.partner_taskade{
+     height: 120px;
+    width: 60%;
+}

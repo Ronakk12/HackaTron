@@ -1,0 +1,139 @@
+ .container smallmar{
+        padding-top:80px;
+        background="b1.jpg";
+      }
+
+.laa:hover{
+  background-color: #01eb00;
+  color:  #000;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.laa{
+  padding-top: 15px;
+/*  margin-top: 10px;*/
+  color:#fff;
+  border-radius: 15px;
+/*  border-radius: 5%;*/
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.three:hover > .defence{
+  visibility: hidden;
+}
+.three:hover > .defence1{
+  visibility: visible;
+}
+
+.defence1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.two:hover > .space{
+  visibility: hidden;
+}
+.two:hover > .space1{
+  visibility: visible;
+}
+
+.space1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.one:hover > .edu{
+  visibility: hidden;
+}
+.one:hover > .edu1{
+  visibility: visible;
+}
+
+.edu1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.four:hover > .e-com{
+  visibility: hidden;
+}
+.four:hover > .e-com1{
+  visibility: visible;
+}
+
+.e-com1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.five:hover > .greenenergy{
+  visibility: hidden;
+}
+.five:hover > .greenenergy1{
+  visibility: visible;
+}
+
+.greenenergy1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.six:hover > .heart{
+  visibility: hidden;
+}
+.six:hover > .heart1{
+  visibility: visible;
+}
+
+.heart1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.seven:hover > .lifestyle{
+  visibility: hidden;
+}
+.seven:hover > .lifestyle1{
+  visibility: visible;
+}
+
+.lifestyle1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+.eight:hover > .transport{
+  visibility: hidden;
+}
+.eight:hover > .transport1{
+  visibility: visible;
+}
+
+.transport1{
+  visibility: hidden;
+  position: relative;
+  right: 26.7%;
+}
+
+@media only screen and (max-width: 786px) {
+  .smallmar {
+    margin-right: 20px;
+   
+    padding: 20px !important;
+  }
+}
+
+#themes

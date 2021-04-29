@@ -1,0 +1,102 @@
+#prizes div.img-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#prizes div.img-list div {
+  display: inline-block;
+  height: 150px;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 150px;
+}
+
+
+
+span.text-content {
+  background: rgba(0,0,0,0);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+span.text-content {
+  background: rgba(0,0,0,0);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 10;
+}
+#prizes > font > div > div > span:hover{
+/*div.img-list div:hover span.text-content {*/
+  opacity: 1;
+}
+
+
+span.text-content {
+  background: rgba(0,0,0,0.95);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 150px;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.cardd{
+  background: rgba(0,0,0,0);
+/*  margin-right: 10% !important;*/
+  border-left-width: 0px;
+  border-color: rgb(0,0,0,0);
+}
+
+
+#prizes div 
+{
+line-height:580%;
+
+}
+.left1
+{
+  padding-left: 9%;
+}
+.top
+{
+  margin-top: 3vh;
+}
+
+@media (max-width: 768px){
+  .1{
+    position: relative;
+    bottom: 20%;
+  }
+  .2{
+    position: relative;
+    top: 20%;
+  }
+}

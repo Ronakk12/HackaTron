@@ -1,0 +1,28 @@
+.navbar.navbar-dark.navbar-expand-md.bg-dark {
+  background: rgba(0,0,0,0.70) !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
+
+/*.nav-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}*/
+
+
+@media (min-width: 300px) {
+  #abou_technica {
+    padding: 20px !important;
+  }
+}
+
+
+#about-technica p{
+  text-align: justify !important;
+}
+
+.topp{
+  padding-top: 8vh;
+}

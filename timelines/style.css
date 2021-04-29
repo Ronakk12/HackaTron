@@ -1,0 +1,200 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  background-image:url("../background.jpg");
+  background-position: center;
+  
+  background-size: cover;
+    padding-left: none;
+    padding-right: none;
+        
+}
+
+#title-logo{
+  /* letter-spacing: 8vh; */
+}
+
+
+
+body,
+.example h1,
+.example p,
+.example .button {
+  transition: all .2s ease-in-out;
+}
+
+/*body.light-theme {
+  background-color: #151515;
+}
+
+body.light-theme .example h1 {
+  color: #FFFFFF;
+}
+
+body.light-theme .example p {
+  color: #FFFFFF;
+}
+
+body.light-theme .buttons .button {
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+body.light-theme .buttons .button:hover {
+  color: #151515;
+  background-color: #FFFFFF;
+}*/
+
+.example {
+  /* font-family: 'Roboto', sans-serif; */
+  /* padding-top: 10vh;    */
+  padding-bottom: 10vh;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+  /* width: 100%;
+  height: 100%; */
+  margin: auto;
+  
+  
+  /* box-sizing: ; */
+}
+
+#countdown{
+  background: url("../countdownbg.jpg");
+  
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+@media only screen and (max-width: 500px) {
+.example{
+  /* padding-top: 10vh;    */
+  /* padding-bottom: 5vh; */
+}  
+.example h1{
+  /* margin-top: 20vh !important; */
+}
+
+.example .flipdown {
+
+    padding-left: 15%;
+    padding-right: 15%
+    
+}
+}
+.example .flipdown {
+  margin: auto;
+}
+
+.example h1 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 3em;
+  margin-top: 6vh;
+  margin-bottom: 5%;
+    color: white;
+}
+
+.example p {
+  text-align: center;
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 35px;
+}
+
+.example .buttons {
+  width: 100%;
+  height: 50px;
+  margin: 50px auto 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.example .buttons p {
+  height: 50px;
+  line-height: 50px;
+  font-weight: 400;
+  padding: 0px 25px 0px 0px;
+  color: #333;
+  margin: 0px;
+}
+
+.example .button {
+  display: inline-block;
+  height: 50px;
+  box-sizing: border-box;
+  line-height: 46px;
+  text-decoration: none;
+  color: white;
+  padding: 0px 10px;
+  border: solid 2px #333;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+  transition: all .2s ease-in-out;
+}
+
+.example .button:hover {
+  background-color: #333;
+  color: black;
+}
+
+.example .button i {
+  margin-right: 5px;
+}
+body > div > h1{
+    color: white;
+}
+@media(max-width: 550px) {
+  .example {
+    width: 100%;
+    height: 100%;
+  }
+
+  .example h1 {
+    font-size: 2.5em;
+  }
+
+  .example p {
+    /* margin-bottom: ; */
+  }
+
+  .example .buttons {
+    width: 100%;
+    margin-top: ;
+    text-align: center;
+    display: block;
+  }
+
+  .example .buttons p,
+  .example .buttons a {
+    float: none;
+    margin: auto;
+  }
+
+  .example .buttons p {
+    padding-right: ;
+  }
+
+  .example .buttons a {
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: px){
+    .rotor-group{
+        height: 23vh !important;
+        width: 21vh !important;
+        padding-left: none !important;
+        padding-right: none !important;
+    }
+}
+

@@ -1,0 +1,77 @@
+#speakers{
+  /* margin-top: 5vh; */
+  /* margin-bottom: 5vh; */
+}
+
+#speakers h1{
+  margin-bottom: 7vh;
+}
+@media (min-width: 1200px) {
+  .speakers .speaker-image {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .speakers .speaker-image {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 300px) {
+  .speakers .speaker-image {
+    height: 30vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .speakers .speaker-image {
+    height: 30vh;
+  }
+}
+
+.card{
+  background: #27a5ef;
+  /* border : 1px solid #27a5ef; */
+}
+
+#speakers .card p{
+  
+
+}
+#speakers p {
+  /* background: #27a5ef; */
+  color: white;
+  font-family: "LEMON MILK";
+  min-height: 5vh;
+  font-size: 15px;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+}
+
+@media (max-width:768px){
+  #speakers p{
+  min-height : 7vh !important;
+  }
+}
+
+#speakers > div > div > div> div > div{
+  padding: 0;
+
+}
+
+/*:nth-child(1)*/
+#speakers > div > div > div{
+	margin-bottom: 4vh;
+}
+img {
+  /*height: 12vh;*/
+}
+
+.card-body.border.rounded {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0;
+}
+

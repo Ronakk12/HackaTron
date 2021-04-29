@@ -1,0 +1,14 @@
+.alignleft {
+	position: absolute;
+	left: 90px;
+}
+.alignright {
+	position: absolute;
+	right: 80px;
+}
+.container { width: 50%; margin-right:200px;}
+
+.vd{
+	box-shadow: 3px 3px 20px grey;
+	border-radius: 10px 10px 10px 10px;
+}
